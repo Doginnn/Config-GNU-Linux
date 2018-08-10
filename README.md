@@ -2,9 +2,9 @@
 
 # SCRIP DE INSTALAÇÃO DOS PROGRAMAS PADRÕES UBUNTU 16.04LTS                                                                                                     
 
-# ANTES DE TUDO:                                                                                                                                                
+ANTES DE TUDO:                                                                                                                                                
 
-# Abra a opção “Programas e atualizações” de “Configurações do sistema” do Unity e marque os repositórios “Parceiros da Canonical” na guia “Outros programas”;
+Abra a opção “Programas e atualizações” de “Configurações do sistema” do Unity e marque os repositórios “Parceiros da Canonical” na guia “Outros programas”;
 
 1. UNITY TWEAK-TOLL(FERRAMENTA DE CONFIGURAÇÃO DO AMBIENTE UNITY)
 
@@ -39,7 +39,7 @@ sudo apt install vlc
 
 6. LIBRE OFFICE
 
-# Antes de tudo desinstale a versão mais antiga do LibreOffice
+Antes de tudo desinstale a versão mais antiga do LibreOffice
 
 sudo apt-get remove --purge libreoffice*
 
