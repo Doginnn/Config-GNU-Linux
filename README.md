@@ -8,7 +8,7 @@ Abra a opção “Programas e atualizações” de “Configurações do sistema
 
 1. UNITY TWEAK-TOLL(FERRAMENTA DE CONFIGURAÇÃO DO AMBIENTE UNITY)
 
-sudo apt install unity-tweak-tool
+$ sudo apt install unity-tweak-tool
 
 
 2. FLASH PLAYER
