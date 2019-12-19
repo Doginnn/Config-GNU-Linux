@@ -10,7 +10,7 @@ Abra a opção “Programas e atualizações” de “Configurações do sistema
 $ sudo apt install unity-tweak-tool
 ```
 
-# 2. FLASH PLAYER
+## 2. FLASH PLAYER
 ```console
 $ sudo sh -c "echo 'deb http://archive.canonical.com/ubuntu $(lsb_release -cs) partner' >> /etc/apt/sources.list"
 ```
@@ -169,16 +169,18 @@ Alias modificadas por [Diógenes Dantas](https://github.com/Doginnn "GitHub - Do
 Este arquivo contém algumas Alias modificadas para agilizar alguns processos no BASH.
 
 ## Passo á passo para modificar o seu BASH:
-    - 1º Navegue até a pasta pessoal e abra seu editor de código favorito como super usuário. No meu caso utilizo o [VSCode](https://code.visualstudio.com/ "Visual Estúdio Code");
+- 1º Navegue até a pasta pessoal e abra seu editor de código favorito como super usuário.
+
+No meu caso utilizo o [VSCode](https://code.visualstudio.com/ "Visual Estúdio Code");
     
 ```console
 $ sudo code .
 ```
-    - 2º Aperte em "Add Folder" para adicionar uma nova pasta ao Workspace;
-    - 3º Aperte as Ctrl + h para aparecer os arquivos ocultos;
-    - 4º Adicione toda a sua "Pasta Pessoal" no workspace;
-    - 5º Procure e abra o arquivo "bash.rc";
-    - 6º Copie e cole todo esse código abaixo na última linha do "bash.rc", salve, feche o editor depois abra novamente;
+- 2º Aperte em "Add Folder" para adicionar uma nova pasta ao Workspace;
+- 3º Aperte as Ctrl + h para aparecer os arquivos ocultos;
+- 4º Adicione toda a sua "Pasta Pessoal" no workspace;
+- 5º Procure e abra o arquivo "bash.rc";
+- 6º Copie e cole todo esse código abaixo na última linha do "bash.rc", salve, feche o editor depois abra novamente;
 
 ```console
 # Alias modificadas para atualização.
@@ -207,4 +209,4 @@ alias pull='git pull'
 alias push='git push'
 ```
 
-    - 7º Depois disso seu novo terminal já deve está funcionando com as ALIASES que você configurou.
+- 7º Depois disso seu novo terminal já deve está funcionando com as ALIASES que você configurou.
