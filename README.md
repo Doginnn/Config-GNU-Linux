@@ -1,16 +1,16 @@
 # SCRIPT DE CONFIGURAÇÃO SISTEMA UBUNTU/LINUX
---
-### SCRIP DE INSTALAÇÃO DOS PROGRAMAS PADRÕES UBUNTU 18.04LTS                                                                                                     
+
+## SCRIP DE INSTALAÇÃO DOS PROGRAMAS PADRÕES UBUNTU 18.04LTS                                                                                                     
 ANTES DE TUDO:                                                                                                                                                
 Abra a opção “Programas e atualizações” de “Configurações do sistema” do GNOME e marque os repositórios “Parceiros da Canonical” na guia “Outros programas”;
 
-### 1. UNITY TWEAK-TOLL(FERRAMENTA DE CONFIGURAÇÃO DO AMBIENTE UNITY)
+#### 1. UNITY TWEAK-TOLL(FERRAMENTA DE CONFIGURAÇÃO DO AMBIENTE UNITY)
 
 ```console
 $ sudo apt install gnome-tweak-tool
 ```
 
-### 2. FLASH PLAYER
+#### 2. FLASH PLAYER
 ```console
 $ sudo sh -c "echo 'deb http://archive.canonical.com/ubuntu $(lsb_release -cs) partner' >> /etc/apt/sources.list"
 ```
@@ -18,7 +18,7 @@ $ sudo sh -c "echo 'deb http://archive.canonical.com/ubuntu $(lsb_release -cs) p
 $ sudo apt install adobe-flashplugin
 ```
 
-### 3. JAVA
+#### 3. JAVA
 Para instalação do JAVA execute os camandos listados abaixo:
 ```console
 sudo apt-get purge openjdk*
@@ -40,17 +40,17 @@ $ sudo apt-get install oracle-java8-installer
 sudo apt-get install oracle-java8-set-default
 ```
 
-### 4. CODECS MULTIMÍDIA
+#### 4. CODECS MULTIMÍDIA
 ```console
 $ sudo apt install ubuntu-restricted-extras libavcodec-extra
 ```
 
-### 5. VLC
+#### 5. VLC
 ```console
 $ sudo apt install vlc
 ```
 
-### 6. LIBRE OFFICE
+#### 6. LIBRE OFFICE
 
 Antes de tudo desinstale a versão mais antiga do LibreOffice
 ```console
@@ -98,7 +98,7 @@ $ cd DEBS
 $ sudo dpkg -i *.deb
 ```
 
-### 7. EDITOR VS CODE(EDITOR OPEN-SOURCE DA MICROSOFT)
+#### 7. EDITOR VS CODE(EDITOR OPEN-SOURCE DA MICROSOFT)
 ```console
 $ sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main" > /etc/apt/sources.list.d/vscode.list'
 ```
@@ -119,12 +119,12 @@ $ sudo apt-get update
 $ sudo apt-get install code
 ```
 
-### 8. LAMP SERVER
+#### 8. LAMP SERVER
 ```console
 $ sudo apt-get install lamp-server^
 ```
 
-### 9. PHPMYADMIN
+#### 9. PHPMYADMIN
 ```console
 $ sudo apt-get install phpmyadmin
 ```
@@ -145,7 +145,7 @@ $ sudo /etc/init.d/apache2 restart
 $ http://localhost/test.php
 ```
 
-### 10. KODI
+#### 10. KODI
 ```console
 $ sudo add-apt-repository ppa:team-xbmc/ppa
 ```
@@ -158,7 +158,7 @@ $ sudo apt update
 $ sudo apt install kodi-pvr-mythtV
 ```
 
-### 11. TIMESHIFT (CRIA SNAPSHOTS DO SISTEMA – FERRAMENTA DE BACKUP)
+#### 11. TIMESHIFT (CRIA SNAPSHOTS DO SISTEMA – FERRAMENTA DE BACKUP)
 ```console
 $ sudo add-apt-repository ppa:teejee2008/ppa
 ```
@@ -171,13 +171,13 @@ $ sudo apt-get update
 $ sudo apt-get install timeshift
 ```
 
-### 12. ALIAS MODIFICADAS PARA MELHORAR NA DIGITAÇÃO DOS CÓDIGOS
+#### 12. ALIAS MODIFICADAS PARA MELHORAR NA DIGITAÇÃO DOS CÓDIGOS
 
 Alias modificadas por [Diógenes Dantas](https://github.com/Doginnn "GitHub - Doginnn")
 
 Este arquivo contém algumas Alias modificadas para agilizar alguns processos no BASH.
 
-### Passo á passo para modificar o seu BASH:
+#### Passo á passo para modificar o seu BASH:
 - 1º Navegue até a pasta pessoal e abra seu editor de código favorito como super usuário.
 
     (No meu caso utilizo o [VSCode](https://code.visualstudio.com/ "Visual Estúdio Code"));
@@ -219,20 +219,19 @@ alias push='git push'
 ```
 
 - 7º Depois disso seu novo terminal já deve está funcionando com as ALIASES que você configurou.
---
 
---
-### SCRIP DE INSTALAÇÃO DOS PROGRAMAS PADRÕES UBUNTU 16.04LTS                                                                                                     
+
+# SCRIP DE INSTALAÇÃO DOS PROGRAMAS PADRÕES UBUNTU 16.04LTS                                                                                                     
 ANTES DE TUDO:                                                                                                                                                
 Abra a opção “Programas e atualizações” de “Configurações do sistema” do Unity e marque os repositórios “Parceiros da Canonical” na guia “Outros programas”;
 
-### 1. UNITY TWEAK-TOLL(FERRAMENTA DE CONFIGURAÇÃO DO AMBIENTE UNITY)
+#### 1. UNITY TWEAK-TOLL(FERRAMENTA DE CONFIGURAÇÃO DO AMBIENTE UNITY)
 
 ```console
 $ sudo apt install unity-tweak-tool
 ```
 
-### 2. FLASH PLAYER
+#### 2. FLASH PLAYER
 ```console
 $ sudo sh -c "echo 'deb http://archive.canonical.com/ubuntu $(lsb_release -cs) partner' >> /etc/apt/sources.list"
 ```
@@ -240,7 +239,7 @@ $ sudo sh -c "echo 'deb http://archive.canonical.com/ubuntu $(lsb_release -cs) p
 $ sudo apt install adobe-flashplugin
 ```
 
-### 3. JAVA
+#### 3. JAVA
 ```console
 $ sudo add-apt-repository ppa:webupd8team/java
 ```
@@ -257,17 +256,17 @@ $ sudo apt-get install oracle-java8-installer
 sudo apt-get install oracle-java8-set-default
 ```
 
-### 4. CODECS MULTIMÍDIA
+#### 4. CODECS MULTIMÍDIA
 ```console
 $ sudo apt install ubuntu-restricted-extras libavcodec-extra
 ```
 
-### 5. VLC
+#### 5. VLC
 ```console
 $ sudo apt install vlc
 ```
 
-### 6. LIBRE OFFICE
+#### 6. LIBRE OFFICE
 
 Antes de tudo desinstale a versão mais antiga do LibreOffice
 ```console
@@ -315,7 +314,7 @@ $ cd DEBS
 $ sudo dpkg -i *.deb
 ```
 
-### 7. EDITOR VS CODE(EDITOR OPEN-SOURCE DA MICROSOFT)
+#### 7. EDITOR VS CODE(EDITOR OPEN-SOURCE DA MICROSOFT)
 ```console
 $ sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main" > /etc/apt/sources.list.d/vscode.list'
 ```
@@ -336,12 +335,12 @@ $ sudo apt-get update
 $ sudo apt-get install code
 ```
 
-### 8. LAMP SERVER
+#### 8. LAMP SERVER
 ```console
 $ sudo apt-get install lamp-server^
 ```
 
-### 9. PHPMYADMIN
+#### 9. PHPMYADMIN
 ```console
 $ sudo apt-get install phpmyadmin
 ```
@@ -362,7 +361,7 @@ $ sudo /etc/init.d/apache2 restart
 $ http://localhost/test.php
 ```
 
-### 10. KODI
+#### 10. KODI
 ```console
 $ sudo add-apt-repository ppa:team-xbmc/ppa
 ```
@@ -375,7 +374,7 @@ $ sudo apt update
 $ sudo apt install kodi-pvr-mythtV
 ```
 
-### 11. TIMESHIFT (CRIA SNAPSHOTS DO SISTEMA – FERRAMENTA DE BACKUP)
+#### 11. TIMESHIFT (CRIA SNAPSHOTS DO SISTEMA – FERRAMENTA DE BACKUP)
 ```console
 $ sudo add-apt-repository ppa:teejee2008/ppa
 ```
@@ -388,13 +387,13 @@ $ sudo apt-get update
 $ sudo apt-get install timeshift
 ```
 
-### 12. ALIAS MODIFICADAS PARA MELHORAR NA DIGITAÇÃO DOS CÓDIGOS
+#### 12. ALIAS MODIFICADAS PARA MELHORAR NA DIGITAÇÃO DOS CÓDIGOS
 
 Alias modificadas por [Diógenes Dantas](https://github.com/Doginnn "GitHub - Doginnn")
 
 Este arquivo contém algumas Alias modificadas para agilizar alguns processos no BASH.
 
-### Passo á passo para modificar o seu BASH:
+#### Passo á passo para modificar o seu BASH:
 - 1º Navegue até a pasta pessoal e abra seu editor de código favorito como super usuário.
 
     (No meu caso utilizo o [VSCode](https://code.visualstudio.com/ "Visual Estúdio Code"));
