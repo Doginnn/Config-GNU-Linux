@@ -221,7 +221,7 @@ alias push='git push'
 - 7º Depois disso seu novo terminal já deve está funcionando com as ALIASES que você configurou.
 
 
-# SCRIP DE INSTALAÇÃO DOS PROGRAMAS PADRÕES UBUNTU 16.04LTS                                                                                                     
+## SCRIP DE INSTALAÇÃO DOS PROGRAMAS PADRÕES UBUNTU 16.04LTS                                                                                                     
 ANTES DE TUDO:                                                                                                                                                
 Abra a opção “Programas e atualizações” de “Configurações do sistema” do Unity e marque os repositórios “Parceiros da Canonical” na guia “Outros programas”;
 
