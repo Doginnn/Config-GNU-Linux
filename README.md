@@ -21,7 +21,7 @@ $ sudo apt install adobe-flashplugin
 #### 3. JAVA
 Para instalação do JAVA execute os camandos listados abaixo:
 ```console
-sudo apt-get purge openjdk*
+$ sudo apt-get purge openjdk*
 ```
 
 ```console
@@ -37,7 +37,7 @@ $ sudo apt-get install oracle-java8-installer
 ```
 
 ```console
-sudo apt-get install oracle-java8-set-default
+$ sudo apt-get install oracle-java8-set-default
 ```
 
 #### 4. CODECS MULTIMÍDIA
@@ -253,7 +253,7 @@ $ sudo apt-get install oracle-java8-installer
 ```
 
 ```console
-sudo apt-get install oracle-java8-set-default
+$ sudo apt-get install oracle-java8-set-default
 ```
 
 #### 4. CODECS MULTIMÍDIA
