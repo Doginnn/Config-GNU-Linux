@@ -202,7 +202,7 @@ alias google='ping 8.8.8.8'
 alias 1111='ping 1.1.1.1'
 alias 4444='ping 4.4.4.4'
 
-#Comandos para diretórios.
+# Comandos para diretórios.
 alias raiz='cd ../../..'
 
 # Alias modificadas para GitHub
@@ -418,7 +418,7 @@ alias google='ping 8.8.8.8'
 alias 1111='ping 1.1.1.1'
 alias 4444='ping 4.4.4.4'
 
-#Comandos para diretórios.
+# Comandos para diretórios.
 alias raiz='cd ../../..'
 
 # Alias modificadas para GitHub
